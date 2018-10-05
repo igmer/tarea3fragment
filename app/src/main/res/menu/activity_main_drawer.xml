@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/notas"
+            android:icon="@drawable/notas"
+            android:title="Consulta de Notas" />
+        <item
+            android:id="@+id/expediente"
+            android:icon="@drawable/expediente"
+            android:title="Expediente Académico" />
+        <item
+            android:id="@+id/seminario"
+            android:icon="@drawable/seminario"
+            android:title="Seminarios" />
+        <item
+            android:id="@+id/pensum"
+            android:icon="@drawable/pensum"
+            android:title="Pensum" />
+        <item
+            android:id="@+id/perfil"
+            android:icon="@drawable/registro"
+            android:title="Perfil de alumno" />
+    </group>
+
+    <item android:title="Otros Enlaces">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share"
+                android:title="Compartir" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/email"
+                android:title="Contactanos" />
+            <item
+                android:id="@+id/llegar"
+                android:icon="@drawable/comollegar"
+                android:title="Como llegar?" />
+        </menu>
+    </item>
+
+</menu>
